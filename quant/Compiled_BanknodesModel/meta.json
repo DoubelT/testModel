@@ -1,0 +1,8 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "Banknodes.xmodel",
+    "kernel": [
+        "subgraph_BankNodes__BankNodes_Sequential_network__Hardsigmoid_sig2__36_fix(MoveReshape)_reshaped"
+    ],
+    "target": "DPUCZDX8G_ISA1_B4096"
+}

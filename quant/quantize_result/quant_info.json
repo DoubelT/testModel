@@ -1,0 +1,23 @@
+{
+  "param":
+  {
+    "BankNodes::network.fc1.weight":[[8,7]],
+    "BankNodes::network.fc1.bias":[[8,7]],
+    "BankNodes::network.fc2.weight":[[8,7]],
+    "BankNodes::network.fc2.bias":[[8,12]]
+  },
+  "output":
+  {
+    "BankNodes::input_0":[[8,7]],
+    "BankNodes::BankNodes/Sequential[network]/ReLU[relu1]/34":[[8,7]],
+    "BankNodes::BankNodes/Sequential[network]/Linear[fc2]/input":[[8,11]],
+    "BankNodes::BankNodes/Sequential[network]/Hardsigmoid[sig2]/36":[[8,8]]
+  },
+  "input":
+  {
+
+  },
+  "fast_finetuned":false,
+  "bias_corrected":true,
+  "version":"3.0.0+a44284e+torch1.12.1"
+}
