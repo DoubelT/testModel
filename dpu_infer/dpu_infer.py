@@ -36,7 +36,7 @@ def runBankNode(dpu_runner_tfBankNode):
     testOutput = []
     testOutput.append(np.array([4],dtype=np.float32, order="C"))
     testInput = []
-    testInput.append(np.array([1.6637564,0.3632291,-0.8054172,0.76274574], dtype=np.float32,order="C"))
+    testInput.append(np.array([-0.62262523,-0.65634483,0.30037877,0.85819834], dtype=np.float32,order="C"))
     print("Execute async")
     job_id = dpu_runner_tfBankNode.execute_async(testInput, testOutput) #input output missing !!!
     dpu_runner_tfBankNode.wait(job_id)
